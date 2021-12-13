@@ -2,7 +2,9 @@ import React, { useState } from "react";
 
 const Button = (props) => {
     return (
-      <button onClick = {props.onClick} title={props.title}/>
+      <button onClick = {props.onClick}>
+          {props.title}
+        </button>
     )
     
 }
